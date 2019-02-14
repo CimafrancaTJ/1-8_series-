@@ -1,2 +1,2 @@
-# 1-8_series-
+# 1-8_series
 My Assignments
