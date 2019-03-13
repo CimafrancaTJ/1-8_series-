@@ -3,12 +3,6 @@ import requests
 
 app = Flask(__name__)
 
-
-from flask import Flask, render_template, request
-import requests
-
-app = Flask(__name__)
-
 @app.route('/temperature', methods=['POST'])
 def temperature():
     	zipcode = request.form['zip']
